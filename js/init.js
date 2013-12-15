@@ -11,6 +11,8 @@ require.config({
     jquery:       '../libs/javascript/jquery/jquery',
     jqueryui:     '../libs/javascript/jqueryui/jqueryui',
     underscore:   '../libs/javascript/underscore/underscore',
-    backbone:     '../libs/javascript/backbone/backbone'  
+    backbone:     '../libs/javascript/backbone/backbone',
+    text:         '../libs/javascript/requirejs-text/text',
+    tmpl:         '../templates'  
   } 
 });

@@ -26,12 +26,9 @@ function(Backbone, Datasets, dsViewTemplate) {
       var _this = this;
        console.log('Render::MainView', this.collection);
        $.each(this.collection.models, function(index,val) {
-        //_this.$el.append(_this.template(_this.collection[index].toJSON));  
         _this.$el.append(_this.template(val.collection.models[index].toJSON()));
         console.log(val.collection.models[index]);
-        //_this.$el.append(_this.collection[index]);
        });
-       //this.$el.html(this.template(this.collection.toJSON()));
        return this;
     }
   });
